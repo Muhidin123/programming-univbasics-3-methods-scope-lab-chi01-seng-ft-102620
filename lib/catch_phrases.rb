@@ -11,4 +11,11 @@ end
 
 
 def link
-  phrase_2 = " 'It's Dangerous To Go Alone! Take This.' "
+  $phrase_2 = "'It's Dangerous To Go Alone! Take This.'"
+end
+
+def all_phrases
+  puts mario
+  puts $status
+  puts $phrase_2
+end
